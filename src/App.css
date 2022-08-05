@@ -1,29 +1,57 @@
+* {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
 a:link { 
   text-decoration: none;
   color:white;
 }
 
 a:hover {
-  color:#BD9675
+  color:#BD9675;
 }
 
 a {
-  color:white;
+  color:#F1E2D2;
 }
 
 
 ul {
   list-style-type: none;
+  padding: 0rem;
+  margin: 0rem;
 
 }
 
 
 header {
   background-color: #8A6262;
-  padding-top:20px;
-}
-
-h1{
-  color:white;
 
 }
+
+h1,h2, p{
+  color:#F1E2D2;
+  margin: 0rem;
+
+}
+
+.resumeButton {
+    background-color: #8A6262;
+    border:2px solid #F1E2D2; 
+    font-size: 0.9rem;
+    color:#F1E2D2;
+  }
+
+  .resumeButton:hover {
+    background-color: #BD9675;
+  }
+ 
+ .projectCard {
+  background-color: #8A6262;
+  height: 15rem;
+  border:2px solid #F1E2D2; 
+  padding:1rem;
+    
+ }

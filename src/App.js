@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor:"#8A6262"}}>
   <Header/> 
   <About/> 
   <Projects/> 
