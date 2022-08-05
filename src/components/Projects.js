@@ -12,7 +12,7 @@ function Projects(){
       Project 2
     </div>
     <div class="projectCard col-lg-4 col-md-6 col-sm-12">
-     Project 3
+     Project  3
     </div>
   
     </div>
