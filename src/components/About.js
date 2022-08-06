@@ -3,7 +3,7 @@ import {AiFillLinkedin, AiFillGithub} from "react-icons/ai";
 function About(){
     return (
        <div style= {{marginTop:"3rem"}} className="container d-flex flex-column gap-5 align-items-center">
-       <h1>
+       <h1 style={{fontSize:"3rem"}}>
         Hi, I am Tuğba Yılmaz.
        </h1> 
       <h2>

@@ -22,6 +22,7 @@ ul {
   list-style-type: none;
   padding: 0rem;
   margin: 0rem;
+  text-align: center;
 
 }
 
@@ -31,7 +32,16 @@ header {
 
 }
 
-h1,h2, p{
+h1,h2,h3{
+  color:#F1E2D2;
+  margin: 0rem;
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+  font-size:1rem;
+  margin-top:1rem;
   color:#F1E2D2;
   margin: 0rem;
 
@@ -50,8 +60,39 @@ h1,h2, p{
  
  .projectCard {
   background-color: #8A6262;
-  height: 15rem;
-  border:2px solid #F1E2D2; 
+  border:2px solid #805B5B; 
   padding:1rem;
+  color:#F1E2D2;
+  text-align: center;
+  width:20rem ;
+  display:flex;
+  gap:10px;
+  flex-direction: column;
+  margin:1.5rem auto;
+  }
+
+  .projectCard:hover {
+    box-shadow: 0 8px 18px 0 rgba(0,0,0,0.2);
+  }
+
+  .mySkills {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #F1E2D2;
     
- }
+   
+  }
+ 
+
+.items {
+  border:2px solid #805B5B; 
+  padding:1rem;
+  
+}
+
+.items:hover {
+  background-color: #805B5B;
+}
