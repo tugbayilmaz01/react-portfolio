@@ -22,7 +22,7 @@ function Projects(){
     </div>
     <div class="projectCard col-lg-4 col-md-6 col-sm-12">
     <h3> Project 2</h3>
-     <p> Amet asperiores et impedit aliquam consectetur? Voluptates  sed a nulla ipsa officia et esse aliquam</p>
+     <p> Amet asperiores et impedit aliquam consectetur? Voluptates sed a nullaipsa officia et esse aliquam</p>
      <ul className="d-flex justify-content-center gap-3">
   <li>SASS</li>
   <li>React</li>
