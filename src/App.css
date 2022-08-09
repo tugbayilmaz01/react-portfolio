@@ -87,12 +87,31 @@ p {
   }
  
 
-.items {
-  border:2px solid #805B5B; 
+.items { 
   padding:1rem;
   
 }
 
 .items:hover {
   background-color: #805B5B;
+}
+
+.contact-button {
+  background-color: #8A6262;
+  border:2px solid #805B5B;
+}
+
+.contact-button:hover {
+  background-color:#805B5B;
+  border:2px solid #805B5B;
+}
+
+.change-button {
+  background-color: #8A6262;
+  border:2px solid #805B5B;
+}
+
+.change-button:hover {
+  background-color:#805B5B;
+  border:2px solid #805B5B;
 }

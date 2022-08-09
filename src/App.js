@@ -14,8 +14,10 @@ function App() {
   <Projects/> 
   <Skills/> 
   <Contact/>
-  </div> 
+ </div> 
+
   );
 }
 
 export default App;
+
