@@ -27,10 +27,7 @@ ul {
 }
 
 
-header {
-  background-color: #8A6262;
 
-}
 
 h1,h2,h3{
   color:#F1E2D2;
@@ -48,7 +45,7 @@ p {
 }
 
 .resumeButton {
-    background-color: #8A6262;
+  background-color: #A37474;
     border:2px solid #F1E2D2; 
     font-size: 0.9rem;
     color:#F1E2D2;
@@ -59,8 +56,8 @@ p {
   }
  
  .projectCard {
-  background-color: #8A6262;
-  border:2px solid #805B5B; 
+
+  border:2px solid #8F6565; 
   padding:1rem;
   color:#F1E2D2;
   text-align: center;
@@ -97,8 +94,9 @@ p {
 }
 
 .contact-button {
-  background-color: #8A6262;
+ 
   border:2px solid #805B5B;
+  color:#F1E2D2;
 }
 
 .contact-button:hover {
@@ -107,7 +105,6 @@ p {
 }
 
 .change-button {
-  background-color: #8A6262;
   border:2px solid #805B5B;
 }
 
@@ -115,3 +112,30 @@ p {
   background-color:#805B5B;
   border:2px solid #805B5B;
 }
+
+.btn-primary {
+  --bs-btn-color: #F1E2D2;
+  --bs-btn-bg: #805B5B;
+  --bs-btn-border-color: #805B5B;
+  --bs-btn-hover-color: #BD9675;
+  --bs-btn-hover-bg: #805B5B;
+  --bs-btn-hover-border-color:#805B5B;
+  --bs-btn-focus-shadow-rgb: 138, 98, 98;
+  --bs-btn-active-color: #F1E2D2;
+  --bs-btn-active-bg: #805B5B;
+  --bs-btn-active-border-color:#805B5B;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #F1E2D2; 
+  --bs-btn-disabled-bg: #805B5B;
+  --bs-btn-disabled-border-color: #805B5B;
+}
+
+.footer {
+  margin: 1rem;
+  padding-top:1rem;
+  font-size: 0.90rem;
+  
+}
+
+
+
